@@ -10,4 +10,4 @@ def heaps(ropes):
 
         total += a+b
         heapq.heappush(ropes, a + b)
-    return total
+    return total #important for zco exam
